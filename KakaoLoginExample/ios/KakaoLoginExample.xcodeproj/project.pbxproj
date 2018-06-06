@@ -1239,6 +1239,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-all_load",
 				);
 				PRODUCT_NAME = KakaoLoginExample;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1260,6 +1261,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-all_load",
 				);
 				PRODUCT_NAME = KakaoLoginExample;
 				VERSIONING_SYSTEM = "apple-generic";
