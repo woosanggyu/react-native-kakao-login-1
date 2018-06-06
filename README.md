@@ -44,6 +44,13 @@ React Native 카카오 로그인 라이브러리 입니다.
 
 #### iOS
 
+1. iOS 카카오 SDK 설치 관련해서는 [여기](https://developers.kakao.com/docs/ios/getting-started)를 참고해주세요. 성공적으로 build가 되는 것을 확인하시면 아래를 진행하시면 됩니다.
+2. 프로젝트를 열고 info.plist를 소스코드로 열어 아래 항목을 추가합니다.
+```
+  <key>KAKAO_APP_KEY</key>
+	<string>bf604 ..... your key  same as Android key  ....  147bb</string>
+```
+
 #### Android
 
 1. 안드로이드 카카오 SDK 설치 관련해서는 [여기](https://developers.kakao.com/docs/android/getting-started)를 참고해주세요. 성공적으로 build가 되는 것을 확인하시면 아래를 진행하시면 됩니다.
